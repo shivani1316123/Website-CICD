@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning DevOps | Career Journey</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
+url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1920&q=80");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+overflow-x:hidden;
+color:white;
+}
+
+.hero{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+}
+
+.content{
+
+max-width:950px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(12px);
+padding:45px;
+border-radius:25px;
+border:1px solid rgba(255,255,255,.2);
+box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+}
+
+h1{
+
+font-size:55px;
+margin-bottom:20px;
+font-weight:700;
+
+}
+
+h1 span{
+
+color:#00e5ff;
+
+}
+
+p{
+
+font-size:22px;
+line-height:1.8;
+color:#f0f0f0;
+margin-bottom:40px;
+
+}
+
+.tools{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:25px;
+
+}
+
+.tool{
+
+background:rgba(255,255,255,.12);
+padding:20px;
+border-radius:15px;
+transition:.4s;
+cursor:pointer;
+
+}
+
+.tool:hover{
+
+transform:translateY(-10px) scale(1.05);
+background:#00e5ff;
+color:#000;
+
+}
+
+.tool i{
+
+font-size:55px;
+margin-bottom:12px;
+
+}
+
+.tool h3{
+
+font-size:17px;
+
+}
+
+/* Floating animation */
+
+.float{
+
+position:absolute;
+font-size:55px;
+opacity:.15;
+animation:move 18s linear infinite;
+
+}
+
+.float:nth-child(1){
+left:5%;
+top:10%;
+animation-duration:16s;
+}
+
+.float:nth-child(2){
+right:8%;
+top:20%;
+animation-duration:12s;
+}
+
+.float:nth-child(3){
+left:10%;
+bottom:15%;
+animation-duration:15s;
+}
+
+.float:nth-child(4){
+right:18%;
+bottom:8%;
+animation-duration:18s;
+}
+
+@keyframes move{
+
+0%{
+transform:translateY(0px) rotate(0deg);
+}
+
+50%{
+transform:translateY(-50px) rotate(180deg);
+}
+
+100%{
+transform:translateY(0px) rotate(360deg);
+}
+
+}
+
+button{
+
+margin-top:40px;
+padding:16px 40px;
+font-size:18px;
+font-weight:bold;
+border:none;
+border-radius:50px;
+background:#00e5ff;
+cursor:pointer;
+transition:.4s;
+
+}
+
+button:hover{
+
+background:white;
+transform:scale(1.08);
+
+}
+
+footer{
+
+text-align:center;
+padding:25px;
+font-size:15px;
+background:rgba(0,0,0,.6);
+
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:38px;
+}
+
+p{
+font-size:18px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<i class="devicon-amazonwebservices-original float"></i>
+<i class="devicon-docker-plain float"></i>
+<i class="devicon-kubernetes-plain float"></i>
+<i class="devicon-jenkins-line float"></i>
+
+<section class="hero">
+
+<div class="content">
+
+<h1>
+🚀 Learning <span>DevOps</span> <br>
+Building Skills for a Successful Career
+</h1>
+
+<p>
+
+Passionate about Cloud Computing, AWS, Linux, Docker, Jenkins,
+Terraform, Kubernetes, Git, CI/CD, and Automation.
+
+<br><br>
+
+Every deployment makes me stronger.
+Every project makes me better.
+Every challenge makes me industry ready.
+
+</p>
+
+<div class="tools">
+
+<div class="tool">
+<i class="devicon-amazonwebservices-original colored"></i>
+<h3>AWS</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-docker-plain colored"></i>
+<h3>Docker</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-jenkins-line"></i>
+<h3>Jenkins</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-kubernetes-plain colored"></i>
+<h3>Kubernetes</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-git-plain colored"></i>
+<h3>Git</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-github-original"></i>
+<h3>GitHub</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-linux-plain colored"></i>
+<h3>Linux</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-terraform-plain colored"></i>
+<h3>Terraform</h3>
+</div>
+
+<div class="tool">
+<i class="devicon-ansible-plain"></i>
+<h3>Ansible</h3>
+</div>
+
+</div>
+
+<button>Explore My DevOps Journey</button>
+
+</div>
+
+</section>
+
+<footer>
+
+Designed with ❤️ for Future Cloud & DevOps Engineers
+
+</footer>
+
+</body>
+</html>
